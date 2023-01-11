@@ -36,6 +36,6 @@ jobs:
           echo test, and deploy your project.
 
       - name: Repository Dispatch
-        uses: peter-evans/repository-dispatch@v2
+        uses: peter-evans/repository-dispatch@v2.1.1
         with:
           event-type: my-event
