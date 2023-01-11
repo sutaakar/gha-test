@@ -1,9 +1,10 @@
 name: CI notify
 
 
+
 on:
-  repository_dispatch:
-    types: [my-event]
+  workflow_call:
+
 jobs:
   myEvent:
     runs-on: ubuntu-latest
